@@ -12,7 +12,7 @@ read_format_data <- function() {
     unzip("household_power_consumption.zip")
   }
   
-  lines_to_read <- grep("1/2/2007|2/2/2007", readLines("household_power_consumption.txt"))
+  lines_to_read <- grep("^1/2/2007|^2/2/2007", readLines("household_power_consumption.txt"))
   household_power_consumption <- read.table("household_power_consumption.txt", 
                                             header = FALSE, 
                                             sep = ";",
