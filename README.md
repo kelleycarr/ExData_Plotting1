@@ -2,11 +2,11 @@
 
 To run these functions, first source the respective files:
 
-````source("plot1.R")````
+    source("plot1.R")
 
 and then run the respective functions
 
-````plot1()````
+    plot1()
 
 ## Introduction
 
